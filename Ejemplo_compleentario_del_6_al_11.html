@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1";>
+  <title>Mi ejemplo del capitulo 6 al 11.</title>
+  <style>
+    body{
+        font-family: sans-serif;
+        margin: 0; padding: 0;
+        background: #f2f2f2;
+    }
+    
+    header{
+        background: greenyellow;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        transition: background 0.5s;
+    }
+    
+    header:hover{
+        background: #388e3c;
+    }
+    .contenedor {
+        padding: 1rem;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    form input, form button {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        border: 1px solid #ccc;
+        transition: border 0.3s;
+    }
+
+    form input:focus {
+        border: 2px solid #4CAF50;
+        outline: none;
+    }
+
+    form button {
+        background: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out;
+    }
+    form button:hover{
+        background: #2E7D32;
+    }
+
+    @media (max-width: 600px) {
+    header {font-size: 1rem; }
+    .contenedor {padding: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Bienvenidos a mi Ejemplo :3</h1>
+    <p> Realizado por el aprendizaje del curso de CSS</p>
+    <p>En este ejemplo como pantalla de ingreso a la pagina wed.</p>
+  </header>
+
+  <div class="contenedor">
+    <form>
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu correo" required>
+        <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

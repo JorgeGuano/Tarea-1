@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .c { width: 100px; height: 100px; background: skyblue; transition: width 0.5s;}
+    .grande { width: 200px;}
+  </style>
+  <script>
+    function agrandar(e){ e.classList.toggle('grande');}
+  </script>
+</head>
+<body>
+    <p>En esta ocacion la figura que presento se alargara al darle click.</p>
+    <div class="c" onclick="agrandar(this)"></div>
+</body>
+</html>
