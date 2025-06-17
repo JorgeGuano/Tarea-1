@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta chartset="UTF-8"
+        <meta chartset = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>EJEMPLO DE COLORES</title>
+        <style>
+            :root {
+                --color-fondo: #f0f0f0;
+                --color-texto: #333;
+                --color-acento: #e74c3c;
+                --espaciado:16px;
+            }
+            body{
+                background-color: aqua;
+                color: var(--color-texto);
+                font-family: 'Times New Roman', Times, serif;
+                padding:var(--espaciado)
+            }
+            h1{
+                color: var(--color-acento);
+                margin-bottom:calc(var(--espaciado)*2);
+            }
+            buttom{
+                background-color: var(--color-acento);
+                color: aquamarine;
+                border:none;
+                padding:var(--espaciado);
+                cursor: pointer;
+            }
+            button:hover{
+                background-color:darkred;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>COLORESCSS </h1>
+        <p>COMO USAR COLORES FELICES </p>
+        <buttom>
+            HAZ CLICK para volver a ser feliz 7n7</buttom>
+    </body>
+</html>           

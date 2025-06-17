@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta chartset="UTF-8"
+        <meta chartset = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>EJEMPLO DE SELECTORES </title>
+        <style>
+            *{
+                margin:  0;
+                padding: 0;
+            }
+            p{
+                color: #333;
+                font-size: 16px;
+            }
+            .highlight{
+                background-color: yellow;
+            }
+            #main {
+                padding: 20 px;
+                background-color: #008C
+            }
+            p:first-child{
+                font-weight: bold;
+
+            }
+            a:hover{
+                color: red;
+            }
+            div:empty{
+                border: 1px dashed gray;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <p>PRIMER PARRAFO.</p>
+            <p class ="highlight" >
+                segundo parrafo con clase. </p>
+                <p> Tercer parrafo normalito.</p>
+                <a href="#">ENLACE </a>
+                <div></div>
+        </div>  
+    </body>
+</html>
